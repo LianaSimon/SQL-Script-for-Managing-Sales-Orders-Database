@@ -7,8 +7,10 @@ This repository contains an SQL script that demonstrates various operations for 
 
 -- 1.Create a database called 'SALES'
 CREATE DATABASE SALES;
+
 -- 2.Switch to Sales
 USE SALES;
+
 -- 3.Create Table
 CREATE TABLE Orders (
     Order_Id INT PRIMARY KEY, -- Primary Key
@@ -17,11 +19,14 @@ CREATE TABLE Orders (
     Ordered_item VARCHAR(100) NOT NULL,
     Contact_No VARCHAR(15) UNIQUE -- Unique Constraint
 );
+
 -- 4. Add a new column named "order_quantity" to the Orders table
 ALTER TABLE Orders
 ADD order_quantity INT;
+
 -- 5. Rename the Orders table to sales_orders
 RENAME TABLE ORDERS TO SALES_ORDERS;
+
 -- 6. Insert 10 rows into the sales_orders table
 INSERT INTO sales_orders (Order_Id, Customer_name, Product_Category, Ordered_item, Contact_No, order_quantity)
 VALUES 
