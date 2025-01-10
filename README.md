@@ -95,7 +95,7 @@ The script performs the following tasks:
 
 ## How to Use
 1. Clone this repository to your local machine:
-  https://github.com/LianaSimon/SQL-Script-for-Managing-Sales-Orders-Database/edit/main/README.md
+https://github.com/LianaSimon/SQL-Script-for-Managing-Sales-Orders-Database/blob/main/README.md
 OR Copy the above script and run it in your MYSQL workbench:
 
 ## Notes
